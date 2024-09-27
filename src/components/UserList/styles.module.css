@@ -1,0 +1,23 @@
+.user_list {
+  list-style-type: none;
+  max-width: 500px;
+  margin-top: 30px;
+}
+
+.user_list_item {
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: #ecf0f1;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.user_list_item:hover {
+  background-color: #d0d6d8;
+}
+
+.user_list_item:nth-child(odd) {
+  background-color: #e0e4e5;
+}
